@@ -69,6 +69,7 @@ a:hover { text-decoration: underline; }
 .nav a { color: var(--muted); font-weight: 600; }
 .nav a:hover { color: var(--ink); text-decoration: none; }
 .nav .lang { color: var(--accent); }
+.nav .lang + .lang { margin-left: -10px; }
 
 /* Hero */
 .hero { padding: 72px 0 56px; }
